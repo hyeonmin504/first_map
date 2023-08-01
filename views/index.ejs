@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>간단한 지도 표시하기</title>
+    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=nlgvod3d0y"></script>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=69514cd2ffe621889c92f63f83fb7be4&libraries=services"></script>
+</head>
+
+<body>
+  <ul id="navbar">
+    <li>
+      <a href="/">firstmap</a>
+    </li>
+    <li style="float: right">
+      <a class="active" href="/upload">Upload</a>
+    </li>
+  </ul>
+<div id="map" style="width:100%;height:100vh;"></div>
+<script type="text/javascript" src="/javascripts/MarkerClustering.js"></script>
+<script type="text/javascript" src="/javascripts/main.js"></script>
+</body>
+</html>

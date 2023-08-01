@@ -1,0 +1,103 @@
+body {
+  padding: 0px !important;
+  margin: 0px !important;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px ;
+  padding-left: 0px;
+  padding-right: 0px;
+  overflow: hidden;
+  background: #333 ;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: black;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.active {
+  background-color: green;
+}
+
+li a:hover:not(.active){
+  background-color: #111;
+}
+
+.marker {
+  width: 15px;
+  height: 15px;
+  background: red;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.infowindow_wrap{
+  background: white;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.infowindow_title{
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.infowindow_address {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.cluster1 {
+  width: 25px;
+  height: 25px;
+  line-height: 26px;
+  font-size: 10px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background: rgba(255, 149, 79, 0.7);
+}
+
+.cluster2 {
+  width: 30px;
+  height: 30px;
+  line-height: 31px;
+  font-size: 10px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background: rgba(255, 149, 79, 0.7);
+}
+
+.cluster3 {
+  width: 35px;
+  height: 35px;
+  line-height: 26px;
+  font-size: 10px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background: rgba(255, 149, 79, 0.7);
+}
